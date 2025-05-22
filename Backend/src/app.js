@@ -1,6 +1,5 @@
 import express from "express";
-import aiRoutes from "./routes/ai.routes.js"; // Include .js extension explicitly in ES modules
-import cors from "cors";
+import aiRoutes from "./routes/ai.routes.js"; 
 
 const app = express();
 
